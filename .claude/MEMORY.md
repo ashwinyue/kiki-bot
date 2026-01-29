@@ -43,3 +43,30 @@
 
 ---
 *最后更新: 2026-01-29*
+
+## 💡 Key Insights
+
+
+### 2026-01-29
+
+- Everything Claude Code 使用 `.claude/` 目录存储配置
+-人格系统通过 CLAUDE.md 或 hooks 自动加载
+- 记忆管理器已创建在 `custom/scripts/memory-manager.js`...
+
+---
+
+### 2026-01-29
+
+- Everything Claude Code 使用 `.claude/` 目录存储配置
+-人格系统通过 CLAUDE.md 或 hooks 自动加载
+- 记忆管理器已创建在 `custom/scripts/memory-manager.js`...
+
+---
+
+### 2026-01-29
+
+- Everything Claude Code 使用 `.claude/` 目录存储配置
+-人格系统通过 CLAUDE.md 或 hooks 自动加载
+- 记忆管理器已创建在 `custom/scripts/memory-manager.js`...
+
+---
