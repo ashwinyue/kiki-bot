@@ -221,21 +221,12 @@ class PersonalitySwitcher {
     const result = this.switchPersonality();
 
     if (!result) {
-      return; // Default mode
+      // Default mode - silent
+      return;
     }
 
-    console.error('\n========================================');
-    console.error('🎭 PERSONALITY SWITCHER ACTIVE');
-    console.error('========================================');
-    console.error(`Mode: ${result.mode}`);
-    console.error(`Reason: ${result.source}`);
-    console.error(`Replaced files:`);
-
-    for (const [filename, info] of Object.entries(result.replacements)) {
-      console.error(`  - ${filename}`);
-    }
-
-    console.error('========================================\n');
+    // Only print if mode is switched, keep it minimal
+    console.error(`\n💓 [Personality Switcher] ${result.mode} mode (${result.reason})\n`);
   }
 }
 
