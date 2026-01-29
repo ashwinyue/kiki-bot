@@ -1,0 +1,36 @@
+{
+  "$schema": "./custom/schemas/personality-config.json",
+  "currentMode": "default",
+  "modes": {
+    "default": {
+      "description": "默认人格模式 - 平衡且专业",
+      "priority": 0
+    },
+    "focus": {
+      "description": "高效专注模式 - 极简输出，直接解决问题，零废话",
+      "priority": 1,
+      "chance": 0.0,
+      "timeWindow": null
+    },
+    "creative": {
+      "description": "创意探索模式 - 提供多种方案，激发灵感，探索可能性",
+      "priority": 2,
+      "chance": 0.1,
+      "timeWindow": null
+    },
+    "evil": {
+      "description": "激进模式 - 直接批评，不留情面，追求卓越",
+      "priority": 3,
+      "chance": 0.0,
+      "timeWindow": {
+        "at": "22:00",
+        "duration": "2h"
+      }
+    }
+  },
+  "modeFiles": {
+    "focus": ["SOUL.md", "AGENTS.md"],
+    "creative": ["SOUL.md", "AGENTS.md"],
+    "evil": ["SOUL.md", "AGENTS.md"]
+  }
+}
